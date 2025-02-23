@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Liens</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .link {
+            display: block;
+            margin: 10px auto;
+            width: 80%;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .link:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Mes Réseaux</h2>
+        <a href="https://www.instagram.com/yansdjo/" class="link" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@yansdjoo" class="link" target="_blank">TikTok</a>
+        <a href="https://www.twitch.tv/yansdjo_stream" class="link" target="_blank">Twitch</a>
+        <a href="https://discord.com/users/yansdjo__81543" class="link" target="_blank">Discord</a>
+    </div>
+</body>
+</html>
